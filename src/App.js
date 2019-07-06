@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee , faBars, faTimes} from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faBars, faTimes} from '@fortawesome/free-solid-svg-icons'
 import Header from "./components/header";
 import Footer from "./components/footer";
 import AboutUs from "./components/aboutUs";
