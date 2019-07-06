@@ -1,26 +1,10 @@
 import React from "react";
-import styled from "styled-components";
 
-const FooterContainer= styled.div`
-position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  height: 50px;
-`;
-
-const CenteredFooter = styled.div`
-display:flex;
-justify-content:center;
-align-items:center;
-`;
 const Footer = ()=> (
-    <FooterContainer>
-      <CenteredFooter>
+    <div className="Footer">
+      <div className="Footer_center">
         <p>Copyright © 2019 KayRapid</p>
-        </CenteredFooter>
-    </FooterContainer>
+        </div>
+    </div>
 );
 export default Footer;
