@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -28,9 +28,16 @@ class  Header extends React.Component {
             <div  onClick={this.handleClick}>
                <i><FontAwesomeIcon icon={this.state.active ? faBars : faTimes }/></i>
             </div>
-           <a>
-           <div className="logo" href="#">KayRapid</div>
-           </a>
+            <Link
+       activeClass="active"
+       to="about"
+       spy={true}
+       smooth={true}
+       offset={0}
+       duration= {500}
+   >
+           <div className="logo" >KayRapid</div>
+           </Link>
           
          <ul  show={this.state.active}>
         <li> <Link
