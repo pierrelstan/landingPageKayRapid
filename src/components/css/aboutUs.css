@@ -1,0 +1,9 @@
+.containerAbout {
+height: 100vh;
+display: grid;
+grid-column: repeat(2fr, 1fr);
+grid-gap: 20px;
+}
+.logo {
+width: 30%;
+}
