@@ -1,11 +1,11 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import logo from '../logo.svg';
+import './css/aboutUs.css';
 
 const AboutUs=()=> (
-    <div id="about">
+    <div className="containerAbout" id="about">
         <div>
-        <div>
+        <div className="logo">
             <img  src={logo} alt="lo"/>
             </div>
             </div>
