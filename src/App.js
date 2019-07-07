@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -7,7 +6,7 @@ import { faCheckSquare, faBars, faTimes} from '@fortawesome/free-solid-svg-icons
 import Header from "./components/header";
 import Footer from "./components/footer";
 import AboutUs from "./components/aboutUs";
-import Mission from "./components/mission";
+import Home from "./components/home";
 import Contact from "./components/contact";
 import styled from "styled-components";
 
@@ -24,8 +23,8 @@ function App() {
   return (
     <MainContainer>
      <Header />
+     <Home />
      <AboutUs />
-     <Mission />
      <Contact />
      <Footer />
     </MainContainer>
