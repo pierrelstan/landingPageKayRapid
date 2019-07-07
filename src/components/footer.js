@@ -3,7 +3,7 @@ import './css/footer.css';
 
 const Footer = ()=> (
     <div className="Footer">
-      <div className="Footer_center">
+      <div>
         <p>Copyright © 2019 KayRapid</p>
         </div>
     </div>
