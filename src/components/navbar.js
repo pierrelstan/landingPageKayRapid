@@ -39,7 +39,7 @@ class  Navbar extends React.Component {
            </Link>
           
          <ul className={this.state.active ? `main-nav` :`active_Nav`}>
-        <li className=" home__border-top"><Link
+        <li className=" navbar--borderTop"><Link
          className="nav-links"
          
        activeClass="active"
