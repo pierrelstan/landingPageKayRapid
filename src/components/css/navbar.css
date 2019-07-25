@@ -31,7 +31,7 @@
 .home__border-top {
     border-top: 4px solid #562a8440;
 }
-.logo {
+.navbar__logo {
     width: 70px;
     border-radius: 50%;
     display: flex;
@@ -89,7 +89,7 @@
         margin-left: 40px;
     }
 
-    .logo {
+    .navbar__logo{
         margin-left: 40px;
         margin-top: 8px;
         width: 70px;

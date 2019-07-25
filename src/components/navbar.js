@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import { faBars, faTimes,faHome, faAddressCard, faPhone} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './css/header.css';
+import './css/navbar.css';
 import kayrapid from "../kayrapid.png";
 
 
@@ -26,7 +26,7 @@ class  Navbar extends React.Component {
     
         return (
             <div className="navbar">
-            <div className="navbar-toggle"  onClick={this.handleClick}>
+            <div className="navbar__toggle"  onClick={this.handleClick}>
                <i><FontAwesomeIcon icon={this.state.active ? faBars : faTimes }/></i>
             </div>
             <Link
@@ -35,7 +35,7 @@ class  Navbar extends React.Component {
        smooth={true}
        offset={0}
        duration= {500}>
-           <div><img className="logo" src={kayrapid} alt="logo"/></div>
+           <div><img className="navbar__logo" src={kayrapid} alt="logo"/></div>
            </Link>
           
          <ul className={this.state.active ? `main-nav` :`active_Nav`}>
