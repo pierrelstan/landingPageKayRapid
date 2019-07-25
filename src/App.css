@@ -6,4 +6,12 @@
 
 body {
   font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.6;
+}
+@media (min-width:800px){
+  .main-container {
+    width: 800px;
+margin-left: auto;
+margin-right: auto;
+  }
 }
