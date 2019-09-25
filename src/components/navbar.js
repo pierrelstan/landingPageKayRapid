@@ -40,7 +40,7 @@ class  Navbar extends React.Component {
           
          <ul className={this.state.active ? `main-nav` :`active_Nav`}>
         <li className=" navbar--borderTop"><Link
-         className="nav-links"
+        //  className="nav-links"
          
        activeClass="active"
        to="home"
@@ -48,29 +48,28 @@ class  Navbar extends React.Component {
        smooth={true}
        offset={0}
        duration= {500}
-   ><FontAwesomeIcon icon={faHome }/>home</Link>
+   ><span className="nav-links">Home</span> </Link>
    </li>
    <li>
    <Link
-    className="nav-links"
+    // className="nav-links"
        activeClass="active"
        to="about"
        spy={true}
        smooth={true}
        offset={0}
        duration= {500}
-   ><FontAwesomeIcon icon={faAddressCard }/> about</Link>
+   > <span   className="nav-links">About us</span></Link>
    </li>
    <li>
    <Link
-   className="nav-links"
        activeClass="active"
        to="contact"
        spy={true}
        smooth={true}
        offset={0}
        duration= {500}
-   ><FontAwesomeIcon icon={faPhone} />Contact us</Link>
+   ><span   className="nav-links"> Contact us</span></Link>
    </li>
    
          </ul>
