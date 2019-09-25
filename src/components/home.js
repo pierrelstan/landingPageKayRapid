@@ -1,5 +1,5 @@
 import React from "react";
-import {FaDownload} from 'react-icons/fa';
+import {FaDownload ,FaApple, FaGooglePlay} from 'react-icons/fa';
 import './css/home.css';
 import logokay from "../logokay.jpg";
 
@@ -8,20 +8,19 @@ const Home = ()=> (
     <div>
         <div className="home_container" id="home">
             <div className="centered_Home">
-                <div className="image-container">
+            <div className="image-container">
                     <img className="logotwo" src={logokay } alt="logoTwo"/>
-                {/* <h2 className="title_home">Home</h2> */}
                 </div>
             <div className="paragraph_home" >
-                {/* <h1>Home</h1> */}
-            <p className="paragraph"> <span className="begin_home">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. Quia iste nesciunt quasi, fugiat similique, quidem aliquam hic magnam, ipsam ab ipsum 
-            equi distinctio rerum facere incidunt consequatur dolor odio laborum?</p>
+            <p className="paragraph"> <span className="begin_home">Kay Rapid</span> se Yon konpayi  ki fonde nan lane 2018 avek pou objektif revolisyone mache imobilye a nan peyi a.
+Sevis nou ofri yo pèmet kliyan an pi mèt tèt li épi pi lib nan chwazi kay li vle a tou . Janl vle l la nan mezi mwayen lap ka rive </p>
             <div className="btn-container">
-            <button className="btn-download"> <FaDownload/> Download Application</button>
+            <button className="btn-download"><FaApple/> App Store</button>
+            <button className="btn-download"><FaGooglePlay/> Play Store</button>
 
             </div>
             </div>
-       
+            
             </div>
             </div>
     </div>
