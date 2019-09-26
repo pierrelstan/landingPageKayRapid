@@ -42,7 +42,7 @@
         text-align: center;
     }
   }
-@media (min-width:800px){
+@media (min-width:768px){
     .containerAbout {
         height: 100vh;
         color:#333;
