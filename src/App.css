@@ -5,10 +5,7 @@
 }
 
 body {
-  /* font-family: 'Josefin Sans', sans-serif; */
-  /* font-family: 'Coda Caption', sans-serif; */
   font-family: 'Oxygen', sans-serif;
-  /* font-family: 'Krona One', sans-serif; */
   line-height: 1.6;
 }
 @media (min-width:768px){
