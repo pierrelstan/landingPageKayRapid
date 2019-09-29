@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/landingPageKayRapid/static/css/main.0e173a21.chunk.css",
+    "main.js": "/landingPageKayRapid/static/js/main.67a8cf2d.chunk.js",
+    "main.js.map": "/landingPageKayRapid/static/js/main.67a8cf2d.chunk.js.map",
+    "runtime~main.js": "/landingPageKayRapid/static/js/runtime~main.c63c95ea.js",
+    "runtime~main.js.map": "/landingPageKayRapid/static/js/runtime~main.c63c95ea.js.map",
+    "static/js/2.77f37be4.chunk.js": "/landingPageKayRapid/static/js/2.77f37be4.chunk.js",
+    "static/js/2.77f37be4.chunk.js.map": "/landingPageKayRapid/static/js/2.77f37be4.chunk.js.map",
+    "index.html": "/landingPageKayRapid/index.html",
+    "precache-manifest.c180d5ffdc4fb122e971d01049424bdc.js": "/landingPageKayRapid/precache-manifest.c180d5ffdc4fb122e971d01049424bdc.js",
+    "service-worker.js": "/landingPageKayRapid/service-worker.js",
+    "static/css/main.0e173a21.chunk.css.map": "/landingPageKayRapid/static/css/main.0e173a21.chunk.css.map",
+    "static/media/kayrapid.png": "/landingPageKayRapid/static/media/kayrapid.d87d028c.png",
+    "static/media/locationLogo.jpeg": "/landingPageKayRapid/static/media/locationLogo.0f3ddc63.jpeg",
+    "static/media/logokay.jpg": "/landingPageKayRapid/static/media/logokay.57139c0f.jpg"
+  }
+}
